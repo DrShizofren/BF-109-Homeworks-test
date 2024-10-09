@@ -1,0 +1,14 @@
+div strong {
+    border: 1px solid black;
+}
+
+div span {
+    background-color: red;
+}
+
+body h1:nth-child(2) {
+    background-color: yellow;
+}
+body p:nth-child(5) span{
+    background-color: green;
+}
