@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+* *{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: #fff;
+    background-color: black;
+}
+
+.h1a{
+    color: green;
+    background-color: black;
+    width: 100vw;
+    height: 40px;
+    position: fixed;
+}
+
+.a li{
+    color: black;
+}
+
+.a{
+    padding-top: 40px;
+    height: 400px;
+}
+.b{
+    height: 400px;
+}
