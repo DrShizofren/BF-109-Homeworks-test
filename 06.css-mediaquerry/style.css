@@ -1,230 +1,258 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    user-select: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  user-select: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .container {
-    margin: 0 auto;
-    max-width: 1200px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 header {
-    background-image: url("https://adventurehacks.com/wp-content/uploads/2023/05/Camping-Survival-Checklist.png");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9),
-            rgba(0, 0, 0, 0.5)), url("https://adventurehacks.com/wp-content/uploads/2023/05/Camping-Survival-Checklist.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 80vh;
-    background-attachment: fixed;
-    /* filter: brightness(50%) */
+  background-image: url("https://adventurehacks.com/wp-content/uploads/2023/05/Camping-Survival-Checklist.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
+    url("https://adventurehacks.com/wp-content/uploads/2023/05/Camping-Survival-Checklist.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+  background-attachment: fixed;
+  /* filter: brightness(50%) */
 }
 
 .home {
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-direction: column;
-    min-height: 400px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  min-height: 400px;
 }
 
 .home h1 {
-    font-size: 64px;
+  font-size: 64px;
 }
 
 .header * {
-    color: #fff;
+  color: #fff;
 }
 
 .menubar {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 
 .menubar li:hover {
-    color: #F8C301;
-    cursor: pointer;
+  color: #f8c301;
+  cursor: pointer;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    min-height: 120px;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  min-height: 120px;
+  align-items: center;
 }
 
-
 .btn {
-    border: none;
-    border-radius: 10px;
-    width: 200px;
-    padding: 20px;
-    color: white;
-    background-color: #F8C301;
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  padding: 20px;
+  color: white;
+  background-color: #f8c301;
 }
 
 /* --------------------------------------------------------- */
 .infotab i {
-    background-color: #F8C301;
-    color: white;
-    font-size: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100px;
-    min-height: 100px;
-    border-radius: 50%;
+  background-color: #f8c301;
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  min-height: 100px;
+  border-radius: 50%;
 }
-
 .infotab {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
-    max-width: 300px;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 300px;
+  text-align: center;
+}
+.infotabs2{
+    gap: 120px;
 }
 
 .infotabs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* gap: 90px; */
 }
 
 .main {
-    min-height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 80px;
-    padding: 20px 0;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+  padding: 20px 0;
 }
 
 .services {
-    /* font-weight: 900; */
-    font-size: 80px;
+  /* font-weight: 900; */
+  font-size: 80px;
 }
 
 p {
-    text-align: center;
+  text-align: center;
 }
 
 .card img {
-    width: 100%;
+  width: 100%;
 }
 
 .cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3px;
-    max-width: 300px;
-    flex-direction: column;
-    background-color: white;
-    position: relative;
-    transition: all 0.5s;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  max-width: 300px;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
+  transition: all 0.5s;
 }
 
 .cardsection {
-    /* margin-top: 100px; */
-    /* height: 120vh; */
-    background-color: rgb(243, 243, 243);
+  /* margin-top: 100px; */
+  /* height: 120vh; */
+  background-color: rgb(243, 243, 243);
 }
 
 .cardssection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(243, 243, 243);
-    gap: 100px;
-    text-align: center;
-    padding: 150px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(243, 243, 243);
+  gap: 100px;
+  text-align: center;
+  padding: 150px 0;
 }
 
-
 .portfolio {
-    font-size: 64px;
-
+  font-size: 64px;
 }
 
 .pseudodiv {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: #F8C301;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 90%;
-    transition: all 0.5s;
-    display: none;
-
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #f8c301;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 90%;
+  transition: all 0.5s;
+  display: none;
 }
 
 .pseudodiv h1 {
-    color: white;
-    font-size: 64px;
+  color: white;
+  font-size: 64px;
 }
 
-.card:hover .pseudodiv{
-    display: flex;
+.card:hover .pseudodiv {
+  display: flex;
 }
 /* ------------------------------------- */
-.footer{
-    display: flex;flex-direction: column; 
-    min-height: 200px;
-    align-items: center;
-    justify-content: center;gap: 30px;
+.footer {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
 
 .companies,
 .copyrightpart,
-.icons{
-    display: flex;justify-content: space-between;align-items: center; 
-    color: lightgray;
-
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: lightgray;
 }
 .companies,
-.copyrightpart{
-    gap: 100px;
-    flex-wrap: wrap ;
+.copyrightpart {
+  gap: 100px;
+  flex-wrap: wrap;
 }
-.menubutton{
-    color: white;
-    display: none;
+.menubutton {
+  color: white;
+  display: none;
 }
 
-@media screen and (max-width:768px){
-    .menubar{
-        display: none;
-    }
-    .menubutton{
-        display: block;
-    }
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  margin: 100px 0;
 }
-@media screen and (max-width:1260px){
-    .container{
-        padding: 0 40px;
-    }
+/* .teamsection{
+    display: flex;justify-content: center;align-items: center;
+} */
+.ouramazingteam {
+  font-size: 64px;
+}
+.teamimage {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.teamimage img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 768px) {
+  .menubar {
+    display: none;
+  }
+  .menubutton {
+    display: block;
+  }
+}
+@media screen and (max-width: 1260px) {
+  .container {
+    padding: 0 40px;
+  }
 }
