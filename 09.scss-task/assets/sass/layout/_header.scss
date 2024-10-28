@@ -1,0 +1,68 @@
+header {
+  background-color: #28293e;
+
+  .nav {
+    ul {
+      @include flexBox;
+    }
+    button {
+      @extend %primary-btn;
+      border: 1px solid #686877;
+      background-color: transparent;
+      color: white;
+    }
+    @include flexBox($justify: space-between);
+    height: 100px;
+    color: white;
+  }
+
+  .hero-banner-content {
+    max-width: 600px;
+    color: white;
+    position: relative;
+    .message {
+      @include flexBox($justify: flex-start);
+      margin-top: 100px;
+
+      span {
+        color: white;
+      }
+    }
+    img.star {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 50px;
+      right: 90px;
+      z-index: 1;
+    }
+    .webflow {
+      color: #ef6d58;
+    }
+    h1 {
+      z-index: 2;
+    }
+    p {
+      color: gray;
+    }
+    @include flexBox($justify: space-between, $direction: column, $align: left);
+    button {
+      @extend %primary-btn;
+    }
+    .explore-work {
+      background-color: #ef6d58;
+    }
+    .contact-me {
+      background-color: transparent;
+      border: 1px solid transparent;
+      transition: all 0.5s;
+      &:hover {
+        border: 1px solid #686877;
+      }
+    }
+  }
+  .hero-banner {
+    padding: 150px 0;
+    @include flexBox($justify: space-between);
+  }
+}
