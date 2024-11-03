@@ -1,0 +1,39 @@
+#home {
+  #sponsors {
+    .sposnsors {
+      @include flexBox($justify: space-between);
+      padding: 100px 0;
+    }
+    .line {
+      height: 4px;
+      width: 100%;
+      background-color: #f3d1bf;
+    }
+  }
+  main {
+    background-color: #fdf0e9;
+  }
+  #about {
+    .about {
+      @include flexBox;
+      gap: 160px;
+      padding: 150px 0;
+    }
+    .about-content {
+      @include flexBox($direction: column, $align: left);
+      max-width: 700px;
+      .about-us {
+        @extend %primary-btn;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+      }
+      .provides {
+        font-weight: bold;
+      }
+      .aboutp {
+        color: #ef6d58;
+      }
+    }
+  }
+}
