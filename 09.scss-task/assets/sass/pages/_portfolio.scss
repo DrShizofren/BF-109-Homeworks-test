@@ -1,0 +1,67 @@
+.portfolioheader {
+  background-color: #28293e;
+  color: white;
+
+  .nav {
+    ul {
+      @include flexBox;
+    }
+    button {
+      @extend %primary-btn;
+      border: 1px solid #686877;
+      background-color: transparent;
+      color: white;
+    }
+    @include flexBox($justify: space-between);
+    height: 100px;
+    color: white;
+  }
+  .portfolioh1 {
+    margin: 0 auto;
+    padding: 200px 0;
+    max-width: 600px;
+    text-align: center;
+  }
+}
+
+#aboutmain {
+  margin: 100px 0;
+  .bigbox {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url("/assets/images/Bitmap\ \(6\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;    
+    border-radius: 20px;     
+  }
+  .box {
+    @include flexBox;
+    height: 500px;
+    border-radius: 20px;
+  }    
+  .box1{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url("/assets/images/Bitmap\ \(7\).png");
+      background-repeat: no-repeat;
+    background-size: cover;
+  }                                              
+  .box2{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url("/assets/images/Bitmap\ \(8\).png");
+      background-repeat: no-repeat;
+    background-size: cover;
+  }                                              
+  .box3{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url("/assets/images/Bitmap\ \(9\).png");
+      background-repeat: no-repeat;
+    background-size: cover;
+  }                                              
+  .box4{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url("/assets/images/Bitmap\ \(10\).png");
+      background-repeat: no-repeat;
+    background-size: cover;
+  }                                              
+  
+}

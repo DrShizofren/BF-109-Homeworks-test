@@ -1,0 +1,22 @@
+.header {
+    background: url('your-background-image.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 4rem;
+}
+
+.card-icon {
+    font-size: 3rem;
+}
+
+.bg-gray {
+    background-color: gray;
+}

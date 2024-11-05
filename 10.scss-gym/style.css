@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.t-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0;
+}
+
+/* header{
+
+    position: sticky;
+} */
+.image-div h1 {
+    font-size: 64px;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/026/781/389/non_2x/gym-interior-background-of-dumbbells-on-rack-in-fitness-and-workout-room-photo.jpg");
+}
+
+.card-container {
+    display: flex;
+    /* flex-direction: column */
+    gap: 40px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    max-width: 300px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(255, 0, 0, 0.5);
+}
+
+.card i {
+    font-size: 2em;
+    color: #ff4d4d;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    color: #666;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 0;
+    gap: 60px;
+}
+
+.red {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 0;
+
+}
+
+.inputs button,
+.inputs input {
+    width: 250px;
+    border: 1px solid transparent;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.c-card p {
+    color: black;
+}
+
+.c-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.c-card-buttons {
+    display: flex;
+    justify-content: space-around;
+    gap: 190px;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px 0;
+    gap: 40px;
+}
+
+.courcescards {
+    margin: 0 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.absolutebutton {
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    
+    
+    bottom: 30px;
+    left: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: center;
+}
+/* Hover effect to color the whole row red */
+tr:hover {
+    background-color: red;
+    color: #fff;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    margin-top:100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 15px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #f4f4f4;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #222;
+    color: #ccc;
+}
+@media only screen and (max-width: 1200px) {
+    .container {
+        padding: 0 5%;
+    }
+}
