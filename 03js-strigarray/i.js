@@ -39,19 +39,19 @@
 // const foundCompany = itCompanies.includes(companyToFind) ? companyToFind : 'Company not found';
 // console.log(companyToFind, foundCompany);
 
-// const companiesWithMoreThanOneO = [];
-// for (let i = 0; i < itCompanies.length; i++) {
-//   const company = itCompanies[i];
-//   const lowerCaseCompany = company.toLowerCase();
-//   let count = 0;
-//   for (let char of lowerCaseCompany) {
-//     if (char === 'o') {
-//       count++;
-//       if (count > 1) {
-//         companiesWithMoreThanOneO.push(company);
-//         break;
-//       }
-//     }
-//   }
-// }
-// console.log('Companies with more than one :', companiesWithMoreThanOneO);
+const companiesWithMoreThanOneO = [];
+for (let i = 0; i < itCompanies.length; i++) {
+  const company = itCompanies[i];
+  const lowerCaseCompany = company.toLowerCase();
+  let count = 0;
+  for (let char of lowerCaseCompany) {
+    if (char === 'o') {
+      count++;
+      if (count > 1) {
+        companiesWithMoreThanOneO.push(company);
+        break;
+      }
+    }
+  }
+}
+console.log('Companies with more than one :', companiesWithMoreThanOneO);
