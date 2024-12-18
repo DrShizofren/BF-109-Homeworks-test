@@ -1,0 +1,10 @@
+
+.sec3{
+    height: 400px;
+    width: 100%;
+    background-color:rgb(172, 29, 141);
+}
+.cards{
+    display: flex;justify-content: space-between;align-items: center;gap: 50px;
+    margin: 50px 0;
+}

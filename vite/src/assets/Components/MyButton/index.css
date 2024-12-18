@@ -1,0 +1,20 @@
+/* Base styling for the blue button */
+.mybutton {
+    display: inline-block; /* Ensures the button respects padding */
+    background-color: #007bff; /* Bootstrap blue color */
+    color: #fff; /* White text */
+    padding: 10px 20px; /* Vertical and horizontal padding */
+    font-size: 16px; /* Adjust the font size */
+    font-weight: 400; /* Make text slightly bold */
+    text-decoration: none; /* Removes underline */
+    border: none; /* No border */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for the blue button */
+.mybutton:hover {
+    background-color: #0056b3; /* Slightly darker blue */
+    color: #fff; /* Keep text white */
+}

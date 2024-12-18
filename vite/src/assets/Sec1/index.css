@@ -1,0 +1,18 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 50px 0;
+}
+.banner img {
+  width: 590px;
+  height: 260px;
+  border-radius: 10px;
+}
+.banner-hero {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
